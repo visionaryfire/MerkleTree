@@ -1,0 +1,27 @@
+{
+  "name": "merkletreeapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugeneAspire17/MerkleTreeApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugeneAspire17/MerkleTreeApp/issues"
+  },
+  "homepage": "https://github.com/EugeneAspire17/MerkleTreeApp#readme",
+  "dependencies": {
+    "ethers": "^5.5.4",
+    "keccak256": "^1.0.6",
+    "merkletree": "^1.5.0",
+    "merkletreejs": "^0.2.30",
+    "nodemon": "^2.0.15"
+  }
+}
